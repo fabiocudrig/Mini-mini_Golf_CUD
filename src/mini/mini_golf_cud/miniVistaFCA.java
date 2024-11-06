@@ -26,13 +26,13 @@ public class miniVistaFCA extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel2 = new javax.swing.JLabel();
+        pantallaInicioFCA = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PANTALLAINICIO.png"))); // NOI18N
-        getContentPane().add(jLabel2, java.awt.BorderLayout.CENTER);
+        pantallaInicioFCA.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        pantallaInicioFCA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PANTALLAINICIO.png"))); // NOI18N
+        getContentPane().add(pantallaInicioFCA, java.awt.BorderLayout.CENTER);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -74,6 +74,6 @@ public class miniVistaFCA extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel pantallaInicioFCA;
     // End of variables declaration//GEN-END:variables
 }
