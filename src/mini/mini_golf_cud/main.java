@@ -11,8 +11,11 @@ package mini.mini_golf_cud;
 public class main {
     public static void main(String[] args) {
         System.out.println("Iniciando programa.");
-        laVista laVentana = new laVista();
-        
+        miniVistaFCA laVentana = new miniVistaFCA();
         laVentana.setVisible(true);
+        
+        miniModeloFCA modeloFCA = new miniModeloFCA();
+        miniVistaFCA vistaFCA = new miniVistaFCA();
+        miniControladorFCA controladorFCA = new miniControladorFCA(modeloFCA, vistaFCA);
     }
 }

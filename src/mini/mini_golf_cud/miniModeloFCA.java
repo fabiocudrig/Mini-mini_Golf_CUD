@@ -8,6 +8,6 @@ package mini.mini_golf_cud;
  *
  * @author dam2
  */
-public class laControlador {
+public class miniModeloFCA {
     
 }
