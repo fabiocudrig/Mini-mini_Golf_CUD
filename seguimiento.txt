@@ -1,0 +1,22 @@
+Seguimiento del proyecto:
+Control de avances y ruta de desarrollo.
+###
+Sólo el profesor actuará únicamente sobre este archivo, del resto del proyecto.
+No modificar ni borrar este archivo, ya que equivale a puntuar el proyecto con 0.
+###
+
+1º modificación:
+Ok, licencia.
+No es una estructuta funcional MVC con 4 ficheros.
+Sí hay label.
+-> Corrige las carencias y en el label inserta una imagen donde "pintes" el look de como sería la ventana principal.
+-> Refactoriza (cambia) los nombres de todas las clases y objetos que uses de forma que sean exclusivos tuyos y del proyecto (en el futuro no evaluaré nada con nombres genéricos automatizados).
+-> Modifica el README.md donde sea más explicativo sobre el objetivo del proyecto.
+-> Un único "main" en todo el proyecto.
+
+
+2º modificación:
+Elimina la imagen, y debes tener 3 ventanas (la tercera es el JDialog):
+1-> presentación, no redimensionable (tamaño mediano), simulando la carga, y desaparece por tiempo.
+2-> Salta la principal, donde toda la botonera es funcional en el sentido de mandar un mensaje por consola, y salvo el botón "nivel" lanza un JDialog modificado donde configuras la dificultad y sus detalles. Los cambios debe poderse cargar los datos en el arranque.
+Todo los métodos y clases documentados.
