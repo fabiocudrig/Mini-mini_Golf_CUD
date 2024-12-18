@@ -28,6 +28,7 @@ public class controladorMiniControl implements ActionListener {
      * @param modeloFCA Instancia del modelo que gestiona la lógica.
      * @param vistaPrincipalFCA Instancia de la vista principal.
      * @param vistaCargaFCA Instancia de la vista de carga.
+     * @param vistaNivelFCA Instancia de la vista de configuración de nivel.
      */
     
     public controladorMiniControl(modeloMiniModelito modeloFCA, vistaMiniPrincipal vistaPrincipalFCA, vistaMiniCarga vistaCargaFCA, vistaMiniNivel vistaNivelFCA) {

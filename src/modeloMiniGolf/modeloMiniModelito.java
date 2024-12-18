@@ -43,9 +43,15 @@ public class modeloMiniModelito {
         System.out.println("miniMiniGolf FCA iniciado.");
     }
     
+    /**
+     * Método para generar el archivo de configuración.
+     * 
+     * @param vistaNivelFCA Objeto de la vista para obtener los valores de configuración.
+     */
+    
     public void generarArchivoConfiguracion(vistaMiniNivel vistaNivelFCA) {
         String nombre = vistaNivelFCA.getTxtNombreMG();
-        String dificultad = null;
+        String dificultad = "Medio";
 
         if (vistaNivelFCA.getBtnFacilMG().isSelected()) {
             dificultad = "Facil";
@@ -66,6 +72,12 @@ public class modeloMiniModelito {
         }
     }
     
+    /**
+     * Método para cargar la configuración desde el archivo "conf.txt".
+     * 
+     * @param vistaNivel Objeto de la vista donde se mostrará la configuración cargada.
+     */
+    
     public void cargarConfiguracion(vistaMiniNivel vistaNivel) {
         String nombre = "";
         String dificultad = "";
@@ -80,7 +92,6 @@ public class modeloMiniModelito {
                 }
             }
 
-            // Cargar los valores en la interfaz
             vistaNivel.setNombreMG(nombre);
 
             if (dificultad.equalsIgnoreCase("Facil")) {
@@ -91,9 +102,9 @@ public class modeloMiniModelito {
                 vistaNivel.setDificultadDificil();
             }
 
-            System.out.println("Archivo de configuración cargado con éxito.");
+            System.out.println("Archivo de configuracion cargado");
         } catch (IOException e) {
-            System.err.println("Error al cargar el archivo de configuración: " + e.getMessage());
+            System.err.println("Error al cargar el archivo de configuración");
         }
     }
 }
